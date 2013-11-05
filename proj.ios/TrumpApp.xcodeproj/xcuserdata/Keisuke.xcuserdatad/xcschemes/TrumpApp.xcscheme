@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "rm -rf ${BUILT_PRODUCTS_DIR}/*.app">
+               scriptText = "touch -cm /Users/Keisuke/Dropbox/Git/demo_TrumpApp/Resources/*&#10;date &gt; /Users/Keisuke/Dropbox/Git/demo_TrumpApp/Resources/timestamp;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
